@@ -47,4 +47,4 @@ async def searchCMD(_, message: Message):
 @app.on_message(filters.command(["report"]))
 @CMDErrorHandler
 async def reportCMD(_, message: Message):
-    await message.reply_text("Report Bugs Here: @TechZBots_Support")
+    await message.reply_text("Report Bugs Here: @BongoBondhuShiekhMujiburrahman")
